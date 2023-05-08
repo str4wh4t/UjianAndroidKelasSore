@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         EditText edNamaBelakang = (EditText) findViewById(R.id.edNamaBelakang);
         Button btnSimpan = (Button) findViewById(R.id.btnSimpan);
 
-        ArrayList<String> daftar_nama = new ArrayList<>();
+        ArrayList<String> daftar_nama = new ArrayList<>(); // INI ADALAH ARRAY LIST
 
         Intent intent_list = new Intent(MainActivity.this, ListActivity.class);
 
